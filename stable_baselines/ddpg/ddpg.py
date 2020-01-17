@@ -7,8 +7,8 @@ import warnings
 
 import gym
 import numpy as np
-import tensorflow as tf
-import tensorflow.contrib as tc
+import tensorflow.compat.v1 as tf
+#import tensorflow.contrib as tc
 from mpi4py import MPI
 
 from stable_baselines import logger

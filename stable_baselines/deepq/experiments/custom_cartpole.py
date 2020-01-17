@@ -3,7 +3,7 @@ import argparse
 
 import gym
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 import stable_baselines.common.tf_util as tf_utils
 from stable_baselines import logger, deepq

@@ -3,7 +3,7 @@ import warnings
 from collections import deque
 
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from gym.spaces import Box, Discrete
 
 from stable_baselines import logger

@@ -3,7 +3,7 @@ from collections import deque
 
 import gym
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from stable_baselines import logger
 from stable_baselines.common import explained_variance, tf_util, ActorCriticRLModel, SetVerbosity, TensorboardWriter

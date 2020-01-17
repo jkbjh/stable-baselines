@@ -9,7 +9,7 @@ import zipfile
 import cloudpickle
 import numpy as np
 import gym
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 
 from stable_baselines.common.misc_util import set_global_seeds
 from stable_baselines.common.save_util import data_to_json, json_to_data, params_to_bytes, bytes_to_params
